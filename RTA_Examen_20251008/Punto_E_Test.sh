@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo
 echo "Pruebo los permisos de cada directorio: "
 #/Punto_D/Libros/
