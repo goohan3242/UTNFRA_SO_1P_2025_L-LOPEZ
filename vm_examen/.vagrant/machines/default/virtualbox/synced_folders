@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/carpeta_compartida":{"guestpath":"/home/vagrant/carpeta_compartida","hostpath":"E:/SO/repogit/UTNFRA_SO_1P_2025_L-LOPEZ/vm_examen/compartido","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"E:/SO/repogit/UTNFRA_SO_1P_2025_L-LOPEZ/vm_examen","disabled":false,"__vagrantfile":true}}}
