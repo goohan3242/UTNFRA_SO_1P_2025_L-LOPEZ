@@ -1,0 +1,556 @@
+cd $HOME
+whoami
+mkdir repogit
+ll
+cd $HOME/repogit/
+cd
+cd repogit/
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+git clone git@github.com:goohan3242/UTNFRA_SO_1P_2025_L-LOPEZ.git
+ll
+git config --global user.email "goohan3242@gmail.com"
+git config --global user.name "goohan3242"
+git clone git@github.com:goohan3242/UTNFRA_SO_1P_2025_L-LOPEZ.git
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+git clone git@github.com:goohan3242/UTNFRA_SO_1P_2025_L-LOPEZ.git
+LL
+ll
+cd UTN-FRA_SO_Examenes/202509/
+ll
+./script_Precondicion.sh 
+source  ~/.bashrc  && history -a
+cd
+ll
+cp RTA_Examen_20251007/ repogit/UTNFRA_SO_1P_2025_L-LOPEZ/
+cp -r RTA_Examen_20251007/ repogit/UTNFRA_SO_1P_2025_L-LOPEZ/
+cd repogit/
+cd UTNFRA_SO_1P_2025_L-LOPEZ/
+LL
+ll
+mkdir -p $HOME/Astronomia/{Cometa/{Cola,Gravedad,Orbita},Planeta/{Gravedad,Orbita}}
+cd
+ll
+tree Astronomia/
+sudo apt install tree
+tree Astronomia/
+apt install tree
+sudo su apt install tree
+sudo apt install tree
+sudo apt update
+sudo apt install tree
+tree $HOME/Astronomia/
+cd repogit/
+cd UTNFRA_SO_1P_2025_L-LOPEZ/
+LL
+ll
+cd RTA_Examen_20251007/
+ll
+vim Punto_A.sh 
+git status
+git add .
+git status
+git commit -m "feat[A]: Modifico el punto A"
+sudo fdisk -l
+sudo fdisk -l | grep "8 G"
+sudo fdisk -l | grep "8 G" | awk '{print $2}'
+man awk
+sudo fdisk -l | grep "8 G" | awk '{print $2}' | awk -F ':' '{print $1}'
+sudo fdisk /dev/sdc
+sudo fdisk -l /dev/sdc | grep '/dev/sdc'
+sudo fdisk -l /dev/sdc | grep '/dev/sdc' | grep -viE 'Disk|exten'
+sudo partprobe /dev/sdc
+sudo mkfs.ext4 /dev/sdc1
+sudo mkfs.ext4 /dev/sdc2
+sudo mkfs.ext4 /dev/sdc5
+sudo mkfs.ext4 /dev/sdc6
+sudo mkfs.ext4 /dev/sdc7
+ll
+vim Punto_B_Particiones.sh
+git add .
+git commit -m "feat[B-1]: Modifico el punto B-1"
+gis status
+git status
+sudo fdisk -l | grep "8 G" | awk '{print $2}' | awk -F ':' '{print $1}'
+sudo fdisk -l /dev/sdc | grep '/dev/sdc' | grep -viE 'Disk|exten'
+sudo \$HOME/Astronomia/
+cd \$HOME/Astronomia/
+cd $HOME/Astronomia/
+cd ../
+tree Astronomia/ 
+echo "/dev/sdc1  $HOME/Astronomia/Planeta/Gravedad  ext4  defaults  0 0" | sudo tee -a /etc/fstab
+sudo systemctl daemon-reload
+sudo mount -a
+echo "/dev/sdc2  $HOME/Astronomia/Planeta/Orbita  ext4  defaults  0 0" | sudo tee -a /etc/fstab
+sudo systemctl daemon-reload
+sudo mount -a
+echo "/dev/sdc5  $HOME/Astronomia/Cometa/Cola  ext4  defaults  0 0" | sudo tee -a /etc/fstab
+sudo systemctl daemon-reload
+sudo mount -a
+echo "/dev/sdc6  $HOME/Astronomia/Cometa/Gravedad  ext4  defaults  0 0" | sudo tee -a /etc/fstab
+sudo systemctl daemon-reload
+sudo mount -a
+echo "/dev/sdc7  $HOME/Astronomia/Cometa/Orbita  ext4  defaults  0 0" | sudo tee -a /etc/fstab
+sudo systemctl daemon-reload
+sudo mount -a
+cd repogit/
+cd UTNFRA_SO_1P_2025_L-LOPEZ/
+cd RTA_Examen_20251007/
+ll
+vim Punto_B_FormatMontaje.sh 
+git add . 
+git status
+git commit -m "feat[B-2]: Modifico el punto B-2"
+git status
+sudo grep $(whoami) /etc/shadow
+sudo grep $(whoami) /etc/shadow | awk -F ':' '{print$2}'
+sudo groupadd p1c1_2025_g1 
+sudo groupadd p1c1_2025_gTodos 
+man useradd
+echo $CLAVE
+CLAVE=$(sudo grep $(whoami) /etc/shadow | awk -F ':' '{print$2}')
+echo $CLAVE
+sudo useradd -m -s /bin/bash -G p1c1_2025_g1 -p "$CLAVE" p1c1_2025_u1
+sudo useradd -m -s /bin/bash -G p1c1_2025_g1 -p "$CLAVE" p1c1_2025_u2
+sudo useradd -m -s /bin/bash -G p1c1_2025_gTodos -p "$CLAVE" p1c1_2025_u3
+sudo grep -E 'vagr|p1c1' /etc/shadow
+vim Punto_C.sh 
+git add .
+git commit -m "feat[C]: Modifico el punto C"
+git status
+cd
+mkdir -p /Punto_D/{Libros,Musica,videos}/elemento
+sudo mkdir -p /Punto_D/{Libros,Musica,videos}/elemento
+ls /
+ll / 
+tree /Punto_D/
+whoami
+cd /
+whoami
+cd
+ll
+rm -rf RTA_Examen_20251007/
+ll
+ll /Punto_D/
+whoami >> /Punto_D/{Libros,Musica,videos}/elemento
+whoami | tee /Punto_D/{Libros,Musica,videos}/elemento
+cat /Punto_D/Libros/elemento
+rm -rf /Punto_D
+sudo rm -rf /Punto_D/
+ll /
+sudo mkdir -p /Punto_D/{Libros,Musica,videos}/elemento.txt
+ll /Punto_D/
+ll /
+tree /Punto_D/
+whoami | tee /Punto_D/{Libros,Musica,videos}/elemento.txt
+cat /Punto_D/Libros/elemento
+cat /Punto_D/Libros/elemento.txt
+vim /Punto_D/Libros/elemento.txt
+$(whoami) > /Punto_D/{Libros,Musica,videos}/elemento.txt
+tee /Punto_D/{Libros,Musica,videos}/elemento.txt < $(whoami)
+tee /Punto_D/{Libros,Musica,videos}/elemento.txt <<< $(whoami)
+vim /Punto_D/Libros/elemento.txt
+sudo rm -rf /Punto_D/
+ll /
+sudo mkdir -p /Punto_D/{Libros,Musica,videos}/elemento.txt
+"$(whoami)" | tee /Punto_D/{Libros,Musica,videos}/elemento.txt
+"$whoami" | tee /Punto_D/{Libros,Musica,videos}/elemento.txt
+vim /Punto_D/Libros/elemento.txt
+sudo rm -rf /Punto_D/
+ll /
+whoami
+whoami > hola.txt
+ll
+cat hola.txt
+ll /
+sudo mkdir -p /Punto_D/{Libros,Musica,videos}/elemento.txt
+whoami | sudo tee /Punto_D/{Libros,Musica,videos}/elemento.txt
+cat /Punto_D/{Libros,Musica,videos}/elemento.txt
+cat /Punto_D/Libros/elemento.txt/
+vim elemento.txt
+ll
+vim /Punto_D/Libros/elemento.txt/
+rm -rf /Punto_D
+sudo rm -rf /Punto_D
+sudo mkdir -p /Punto_D/{Libros,Musica,videos}/elemento
+ll /Punto_D/Libros/elemento/
+sudo rm -rf /Punto_D
+git status
+exit
+ll /
+history
+sudo mkdir -p /Punto_D/{Libros,Musica,videos}/elemento
+ll /
+rm -rf /Punto_D
+sudo rm -rf /Punto_D
+ll /
+sudo mkdir -p /Punto_D/{Libros,Musica,videos}/elemento.txt
+cat /Punto_D/Libros/elemento.txt
+cat /Punto_D/Libros/elemento.txt/
+tree /Punto_D/
+sudo rm -rf /Punto_D
+sudo mkdir -p /Punto_D/{Libros,Musica,videos}/{elemento}
+tree /Punto_D/
+sudo rm -rf /Punto_D
+sudo mkdir -p /Punto_D/{Libros{elemento.txt},Musica,videos}
+tree /Punto_D/
+sudo rm -rf /Punto_D
+sudo mkdir -p /Punto_D/{Libros/{elemento.txt},Musica,videos}
+tree /Punto_D/
+sudo rm -rf /Punto_D
+sudo mkdir -p /Punto_D/{Libros/{elemento},Musica,videos}
+tree /Punto_D/
+cat Astronomia/
+tree Astronomia/
+sudo df -h 
+sudo mkdir -p /Punto_D/{Libros/{elemento,cosa},Musica,videos}
+tree /Punto_D/
+sudo rm -rf /Punto_D
+ll /
+sudo mkdir -p /Punto_D/{Libros,Musica,videos} | sudo touch elemento.txt
+ll
+ll /
+tree /Punto_D/
+sudo rm -rf /Punto_D
+rm -rf hola.txt 
+rm -rf elemento.txt 
+ll
+sudo mkdir -p /Punto_D/{Libros,Musica,videos} | sudo touch /Punto_D/{Libros,Musica,videos}/elemento.txt
+ll
+ll /
+tree /Punto_D/
+cat /Punto_D/Libros/elemento.txt 
+vim /Punto_D/Libros/elemento.txt 
+sudo rm -rf /Punto_D
+ll /
+sudo mkdir -p /Punto_D/{Libros,Musica,videos}
+tree /Punto_D/
+echo "$(whoami)"
+echo "$(whoami)" | sudo tee /Punto_D/{Libros,Musica,videos}/elemento.txt
+tree /Punto_D/
+cat /Punto_D/Libros/elemento.txt 
+cat /Punto_D/Musica/elemento.txt 
+cat /Punto_D/videos/elemento.txt 
+cd repogit/UTNFRA_SO_1P_2025_L-LOPEZ/
+LL
+ll
+cd RTA_Examen_20251007/
+LL
+ll
+cat /Punto_D/{Libros,Musica,videos}/elemento.txt
+vim Punto_D.sh 
+git add .
+git status
+git commit -m "feat[D]: Modifico el script del punto D"
+git status
+man chown
+sudo chown -R p1c1_2025_u1:p1c1_2025_gTodos /Punto_D/Libros/
+sudo chown -R p1c1_2025_u2:p1c1_2025_gTodos /Punto_D/Musica/
+sudo chown -R p1c1_2025_u3:p1c1_2025_gTodos /Punto_D/videos/
+sudo ls -l /Punto_D
+man chmod
+sudo chmod 710 /Punto_D/Libros/
+sudo ls -l /Punto_D
+ll /Punto_D/Libros/
+sudo ls -l /Punto_D/Libros/
+sudo chmod 740 /Punto_D/Libros/
+sudo ls -l /Punto_D
+sudo chmod 715 /Punto_D/Musica/
+sudo chmod 775 /Punto_D/videos/
+vim Punto_E.sh 
+cd repogit/
+ll
+cd UTNFRA_SO_1P_2025_L-LOPEZ/
+ll
+git status
+man su
+man sudo
+sudo su -c "cat /Punto_D/Libros/
+sudo su -c "cat /Punto_D/Libros/" p1c1_2025_u1
+sudo su -c "ll /Punto_D/Libros/" p1c1_2025_u1
+sudo su -c "ls -l /Punto_D/Libros/" p1c1_2025_u1
+sudo su -c "cat /Punto_D/Libros/elemento.txt" p1c1_2025_u3 
+sudo su -c "ls -l /Punto_D/Libros/elemento.txt" p1c1_2025_u2
+sudo su -c "ls -l /Punto_D/Libros/elemento.txt" p1c1_2025_u3
+sudo su -c "ls -l /Punto_D/Libros/" p1c1_2025_u3
+sudo su -c "ls -l /Punto_D/Libros/" p1c1_2025_u2
+sudo su -c "cat /Punto_D/Musica/elemento.txt" p1c1_2025_u3 
+sudo su -c "vim /Punto_D/Musica/elemento.txt" p1c1_2025_u3 
+sudo su -c "ls -l /Punto_D/Musica/" p1c1_2025_u3
+sudo su -c "ls -l /Punto_D/Musica/" p1c1_2025_u2
+sudo su -c "cat /Punto_D/Musica/elemento.txt" p1c1_2025_u2
+sudo su -c "ls -l /Punto_D/videos/" p1c1_2025_u3
+sudo su -c "cat /Punto_D/videos/" p1c1_2025_u3
+sudo su -c "cat /Punto_D/videos/elemento.txt" p1c1_2025_u3
+sudo su -c "vim /Punto_D/videos/elemento.txt" p1c1_2025_u3
+sudo su -c "ls - /Punto_D/videos/" p1c1_2025_u1
+sudo su -c "ls -l /Punto_D/videos/" p1c1_2025_u1
+sudo su -c "cat /Punto_D/videos/" p1c1_2025_u1
+sudo su -c "cat /Punto_D/videos/elemento.txt" p1c1_2025_u1
+sudo su -c "vim /Punto_D/videos/elemento.txt" p1c1_2025_u1
+ll
+cd RTA_Examen_20251007/
+vim Punto_E.sh 
+git add .
+git status
+git commit -m "feat[E]: Modifico el punto E"
+git status
+git push
+git pull
+cd ../
+ll
+history
+ll
+cd ../
+ll
+cd
+cp -r $HOME/repogit/UTNFRA_SO_1P_2025_L-LOPEZ/RTA_Examen_20251007/ $HOME/
+ll
+cd RTA_Examen_20251007/
+ll
+vim Punto_A.sh 
+cd
+cd repogit/
+ll
+ll UTNFRA_SO_1P_2025_L-LOPEZ/
+rm -rf UTNFRA_SO_1P_2025_L-LOPEZ/
+ll
+git clone git@github.com:goohan3242/UTNFRA_SO_1P_2025_L-LOPEZ.git
+ll
+cd UTNFRA_SO_1P_2025_L-LOPEZ/
+ll
+cd ../
+./UTN-FRA_SO_Examenes/202509/script_Precondicion.sh 
+source  ~/.bashrc  && history -a
+cd
+ll
+cd RTA_Examen_20251008/
+ll
+vim Punto_A.sh 
+cd
+cp -r RTA_Examen_20251008/ repogit/UTNFRA_SO_1P_2025_L-LOPEZ/
+rm -rf RTA_Examen_20251008/
+ll
+cd RTA_Examen_20251007/
+vim Punto_A.sh 
+cd
+cd repogit/
+cd UTNFRA_SO_1P_2025_L-LOPEZ/
+ll
+git add .
+git status
+git commit -m "ADD: Agrego el pre-condition script"
+git status
+git config --global user.email "goohan3242@gmail.com"
+git config --global user.name "goohan3242"
+git status
+git push
+cd
+cd RTA_Examen_20251007/
+vim Punto_A.sh 
+cd
+cd repogit/UTNFRA_SO_1P_2025_L-LOPEZ/RTA_Examen_20251008/
+vim Punto_A.sh 
+git add . 
+git commit -m "feat[A]: Modifico el punto A"
+cd
+cd RTA_Examen_20251007/
+vim Punto_B_FormatMontaje.sh 
+cd
+cd repogit/UTNFRA_SO_1P_2025_L-LOPEZ/RTA_Examen_20251008/
+vim Punto_B_FormatMontaje.sh 
+git add .
+git commit -m "feat[B]: Modifico el punto B"
+git status
+cd
+cd RTA_Examen_20251007/
+vim Punto_B_Particiones.sh 
+cd
+cd repogit/UTNFRA_SO_1P_2025_L-LOPEZ/RTA_Examen_20251008/
+vim Punto_B_Particiones.sh 
+git add .
+git commit -m "feat[B]: Modifico el punto B (Particiones)"
+git status
+cd
+cd RTA_Examen_20251007/
+vim Punto_C.sh 
+cd
+cd repogit/UTNFRA_SO_1P_2025_L-LOPEZ/RTA_Examen_20251008/
+vim Punto_C.sh 
+git add .
+git commit -m "feat[C]: Modifico el punto C"
+git status
+cd
+cd RTA_Examen_20251007/
+vim Punto_D
+ll
+vim Punto_D.sh 
+cd
+cd repogit/UTNFRA_SO_1P_2025_L-LOPEZ/RTA_Examen_20251008/
+vim Punto_D.sh 
+git add .
+git commit -m "feat[D]: Modifico el punto D"
+git status
+cd
+cd RTA_Examen_20251007/
+vim Punto_E.sh 
+cd
+cd repogit/UTNFRA_SO_1P_2025_L-LOPEZ/RTA_Examen_20251008/
+vim Punto_E.sh 
+touch Punto_E_Test.sh
+ll
+vim Punto_E.sh 
+vim Punto_E_Test.sh 
+vim Punto_E.sh 
+git status
+vim Punto_E_Test.sh
+git add .
+git status
+git commit -m "feat[E]: Modifico el punto E &&  ADD:Agrego el test para el mismo"
+git status
+git push
+cd
+history
+mkdir Punto_F
+ll
+cd carpeta_compartida/
+ll
+cd
+ll
+rm -rf Punto_F/
+mkdir $HOME/Punto_F 
+ll
+rm -rf Punto_F/
+mkdir $HOME/Punto_F | touch Filtro_basico.txt
+ll
+rm -rf Punto_F/
+rm -rf Filtro_basico.txt 
+ll
+mkdir $HOME/Punto_F | touch $HOME/Punto_F/Filtro_basico.txt
+ll
+cd Punto_F/
+ll
+cd
+rm -rf Punto_F/
+man mkdir
+mkdir -p $HOME/Punto_F | touch $HOME/Punto_F/Filtro_basico.txt
+ll
+rm -rf Punto_F/
+mkdir -p $HOME/Punto_F | touch Punto_F/Filtro_basico.txt
+ll
+rm -rf Punto_F/
+mkdir Punto_F && touch Punto_F/Filtro_basico.txt
+ll
+cd Punto_F/
+ll
+cd
+cat /proc/cpuinfo 
+ll /proc/
+ll
+rm -rf Punto_F/
+mkdir $HOME/Punto_F | touch Punto_F/Filtro_basico.txt
+ll
+rm -rf Punto_F/
+mkdir $HOME/Punto_F/ | touch Punto_F/Filtro_basico.txt
+ll
+man touch
+mkdir -p $HOME/Punto_F/ | touch Punto_F/Filtro_basico.txt
+ll
+cd Punto_F/
+ll
+ll /
+cd
+ll
+cat /proc/meminfo 
+man grep
+grep -i memtotal /proc/meminfo > $HOME/Punto_F/Filtro_basico.txt 
+cat $HOME/Punto_F/Filtro_basico.txt
+ll
+cat /proc/cpuinfo 
+man grep
+/proc/cpuinfo
+grep -iE "model | MHz" /proc/cpuinfo 
+grep -iE "model | MHz" /proc/cpuinfo | tail -n1
+man tail
+grep -iE "model | MHz" /proc/cpuinfo | tail -n2
+grep -iE "model | MHz" /proc/cpuinfo | tail -n2 >> $HOME/Punto_F/Filtro_basico.txt
+cat Punto_F/Filtro_basico.txt 
+ll
+cd repogit/UTNFRA_SO_1P_2025_L-LOPEZ/RTA_Examen_20251008/
+vim Punto_F.sh 
+cat Punto_F.sh 
+mkdir -p $HOME/Punto_Z/ | touch $HOME/Punto_Z/Filtro_basico.txt
+vim Punto_F.sh 
+mkdir -p $HOME/Punto_Z/ | touch Punto_Z/Filtro_basico.txt
+ll
+cd
+ll
+rm -rf Punto_Z
+ll
+mkdir -p $HOME/Punto_Z/ | touch Punto_Z/Filtro_basico.txt
+ll
+ll Punto_Z/
+rm -rf Punto_Z/
+ll
+mkdir -p $HOME/Punto_Z/ && touch $HOME/Punto_Z/Filtro_basico.txt
+ll
+ll Punto_Z/
+cat Punto_Z/Filtro_basico.txt 
+rm -rf Punto_Z/
+ll
+cd repogit/UTNFRA_SO_1P_2025_L-LOPEZ/RTA_Examen_20251008/
+l
+ll
+vim Punto_F.sh 
+git add .
+git commit -m "feat[F]: Modifico el Punto F"
+git status
+git push
+cd
+mkdir $HOME/Punto_G
+ll
+man curl
+echo "Mi ip publica es: $(curl -s ifconfig.me)" > Punto_G/Filtro_Avanzado.txt
+cat Punto_G/Filtro_Avanzado.txt 
+grep "model name" /proc/cpuinfo 
+grep "model name" /proc/cpuinfo | tail -n1
+grep "model name" /proc/cpuinfo | tail -n1 | awk '{print $3}
+grep "model name" /proc/cpuinfo | tail -n1 | awk '{print $3}'
+grep "model name" /proc/cpuinfo | tail -n1 | awk '{print $5,$6,$7}'
+cat /proc/cpuinfo 
+man grep
+grep -i "Mhz" /proc/cpuinfo | tail -n1 
+grep -i "Mhz" /proc/cpuinfo | tail -n1 | awk '{print $4}'
+echo "CPU Modelo: $(grep "model name" /proc/cpuinfo | tail -n1 | awk '{print $5,$6,$7}') Frecuencia: $( grep -i "Mhz" /proc/cpuinfo | tail -n1 | awk '{print $4}')" >> Punto_G/Filtro_Avanzado.txt
+cat Punto_G/Filtro_Avanzado.txt
+vim Punto_G/Filtro_Avanzado.txt
+cd repogit/
+cd UTNFRA_SO_1P_2025_L-LOPEZ/RTA_Examen_20251008/
+vim Punto_G.sh 
+git add .
+git commit -m "feat[G]: Modifico el punto G"
+git status
+git push
+cd ../
+ll
+vim README.md 
+cat README.md 
+git add .
+git status
+git commit -m "docs: Modifico el README.md"
+git status
+git push
+cd ../UTN-FRA_SO_Examenes/202509/
+ll
+cp 1erParcial_Practico.pdf $HOME/repogit/UTNFRA_SO_1P_2025_L-LOPEZ/
+cd ../../UTNFRA_SO_1P_2025_L-LOPEZ/
+ll
+cd ../
+ll
+cd UTNFRA_SO_1P_2025_L-LOPEZ/
+git status
+git add . 
+git commit -m "ADD: Agrego el pdf de el parcial"]
+git push
+history -a
+$HOME/.bash_history >> $HOME/repogit/UTNFRA_SO_1P_2025_L-LOPEZ/Historial_comandos_L-LOPEZ.txt
